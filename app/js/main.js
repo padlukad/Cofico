@@ -15,8 +15,6 @@ $(function() {
         $('.overlay, .signup, .signin').removeClass('active');
     });
 
-   
-
     $(function(){
         var btn = $('.go-top');  
         $(window).scroll(function() {     
@@ -28,7 +26,7 @@ $(function() {
         });
     });
 
-    $('.menu a, .go-top, .logo, .popular__content-link').on('click', function (e) {
+    $('.menu__link, .go-top, .logo, .popular__content-link').on('click', function (e) {
         e.preventDefault();
         var id  = $(this).attr('href'),
         top = $(id).offset().top;

@@ -13,64 +13,52 @@
     <a class="go-top" href="#home">
     </a>
 
-    <div class="forms-signup">
-        <div class="forms-signup__wrapper">
-            <form class="signup" action="#">
-                <a href="#" class="signup__close">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19px"
-                        height="30px" viewBox="0 0 19 30" version="1.1">
-                        <g id="surface1">
-                            <path style=" stroke:none;fill-rule:nonzero;fill:#49321B;fill-opacity:1;"
-                                d="M 18.441406 21.175781 C 19.183594 21.90625 19.183594 23.09375 18.441406 23.828125 C 18.074219 24.195312 17.585938 24.375 17.101562 24.375 C 16.613281 24.375 16.128906 24.191406 15.757812 23.824219 L 9.5 17.65625 L 3.242188 23.824219 C 2.871094 24.195312 2.386719 24.375 1.898438 24.375 C 1.414062 24.375 0.929688 24.195312 0.558594 23.824219 C -0.183594 23.09375 -0.183594 21.90625 0.558594 21.171875 L 6.816406 14.996094 L 0.558594 8.824219 C -0.183594 8.09375 -0.183594 6.90625 0.558594 6.171875 C 1.296875 5.441406 2.5 5.441406 3.242188 6.171875 L 9.5 12.351562 L 15.757812 6.175781 C 16.5 5.445312 17.703125 5.445312 18.445312 6.175781 C 19.1875 6.90625 19.1875 8.09375 18.445312 8.828125 L 12.1875 15.003906 Z M 18.441406 21.175781 " />
-                        </g>
-                    </svg>
-                </a>
-                <h2 class="title">
-                    Sign Up
-                </h2>
-                <label>
-                    <input class="signup__input" type="email" placeholder="Enter your email">
-                </label>
-                <label>
-                    <input class="signup__input" type="password" placeholder="Enter your password">
-                </label>
-                <label>
-                    <input class="signup__radio" type="checkbox"> Remember me
-                </label>
-                <button class="signup__submit" type="submit">
-                    Sign Up
-                </button>
-                <img src="images/form-bg.png" alt="coffee">
-            </form>
+    <div class="signin" id="signin">
+        <h3 class="title">
+            Sign In
+        </h3>
+        <button class="close-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19px" height="30px" viewBox="0 0 19 30" version="1.1">
+                <g id="surface1">
+                <path style=" stroke:none;fill-rule:nonzero;fill:#49321B;fill-opacity:1;" d="M 18.441406 21.175781 C 19.183594 21.90625 19.183594 23.09375 18.441406 23.828125 C 18.074219 24.195312 17.585938 24.375 17.101562 24.375 C 16.613281 24.375 16.128906 24.191406 15.757812 23.824219 L 9.5 17.65625 L 3.242188 23.824219 C 2.871094 24.195312 2.386719 24.375 1.898438 24.375 C 1.414062 24.375 0.929688 24.195312 0.558594 23.824219 C -0.183594 23.09375 -0.183594 21.90625 0.558594 21.171875 L 6.816406 14.996094 L 0.558594 8.824219 C -0.183594 8.09375 -0.183594 6.90625 0.558594 6.171875 C 1.296875 5.441406 2.5 5.441406 3.242188 6.171875 L 9.5 12.351562 L 15.757812 6.175781 C 16.5 5.445312 17.703125 5.445312 18.445312 6.175781 C 19.1875 6.90625 19.1875 8.09375 18.445312 8.828125 L 12.1875 15.003906 Z M 18.441406 21.175781 "/>
+                </g>
+            </svg>
+        </button>
+        <form class="signin__form" action="#">
+            <input class="signin__email" type="text" placeholder="Enter your email" required>
+            <input class="signin__password" type="password" placeholder="Enter your password" required>
+            <button class="signin__btn" type="submit">
+                Sign in
+            </button>
+        </form>
+        <div class="signup__img">
+            <img src="images/form-bg.png" alt="picture">
         </div>
     </div>
-    
-    <div class="forms-signin">
-        <div class="forms-signin__wrapper">
-            <form class="signin" action="#">
-                    <a href="#" class="signin__close">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19px" height="30px" viewBox="0 0 19 30" version="1.1">
-                            <g id="surface1">
-                                <path style=" stroke:none;fill-rule:nonzero;fill:#49321B;fill-opacity:1;" d="M 18.441406 21.175781 C 19.183594 21.90625 19.183594 23.09375 18.441406 23.828125 C 18.074219 24.195312 17.585938 24.375 17.101562 24.375 C 16.613281 24.375 16.128906 24.191406 15.757812 23.824219 L 9.5 17.65625 L 3.242188 23.824219 C 2.871094 24.195312 2.386719 24.375 1.898438 24.375 C 1.414062 24.375 0.929688 24.195312 0.558594 23.824219 C -0.183594 23.09375 -0.183594 21.90625 0.558594 21.171875 L 6.816406 14.996094 L 0.558594 8.824219 C -0.183594 8.09375 -0.183594 6.90625 0.558594 6.171875 C 1.296875 5.441406 2.5 5.441406 3.242188 6.171875 L 9.5 12.351562 L 15.757812 6.175781 C 16.5 5.445312 17.703125 5.445312 18.445312 6.175781 C 19.1875 6.90625 19.1875 8.09375 18.445312 8.828125 L 12.1875 15.003906 Z M 18.441406 21.175781 "/>
-                            </g>
-                        </svg>
-                    </a>
-                    <h2 class="title">
-                        Sign In
-                    </h2>
-                    <label>
-                        <input class="signin__input" type="email" placeholder="Enter your email">
-                    </label>
-                    <label>                           
-                        <input class="signin__input" type="password" placeholder="Enter your password">
-                    </label>
-                    <button class="signin__submit" type="submit">
-                        Sign In
-                    </button>
-                    <img src="images/form-bg.png" alt="coffee">
-            </form>      
+    <div class="signup" id="signup">
+        <h3 class="title">
+            Sign Up
+        </h3>
+        <button class="close-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19px" height="30px" viewBox="0 0 19 30" version="1.1">
+                <g id="surface1">
+                <path style=" stroke:none;fill-rule:nonzero;fill:#49321B;fill-opacity:1;" d="M 18.441406 21.175781 C 19.183594 21.90625 19.183594 23.09375 18.441406 23.828125 C 18.074219 24.195312 17.585938 24.375 17.101562 24.375 C 16.613281 24.375 16.128906 24.191406 15.757812 23.824219 L 9.5 17.65625 L 3.242188 23.824219 C 2.871094 24.195312 2.386719 24.375 1.898438 24.375 C 1.414062 24.375 0.929688 24.195312 0.558594 23.824219 C -0.183594 23.09375 -0.183594 21.90625 0.558594 21.171875 L 6.816406 14.996094 L 0.558594 8.824219 C -0.183594 8.09375 -0.183594 6.90625 0.558594 6.171875 C 1.296875 5.441406 2.5 5.441406 3.242188 6.171875 L 9.5 12.351562 L 15.757812 6.175781 C 16.5 5.445312 17.703125 5.445312 18.445312 6.175781 C 19.1875 6.90625 19.1875 8.09375 18.445312 8.828125 L 12.1875 15.003906 Z M 18.441406 21.175781 "/>
+                </g>
+            </svg>
+        </button>
+        <form class="signup__form" action="#">
+            <input class="signup__email" type="text" placeholder="Enter your email" required>
+            <input class="signup__password" type="password" placeholder="Enter your password" required>
+            <input class="signup__password-confirm" type="password" placeholder="Confirm password" required>
+            <button class="signup__btn" type="submit">
+                Sign up
+            </button>
+        </form>
+        <div class="signup__img">
+            <img src="images/form-bg.png" alt="picture">
         </div>
     </div>
+    <div class="overlay"></div>
 
     <header class="header">
         <div class="container">
@@ -97,12 +85,12 @@
                                 </a>
                             </li>
                             <li class="menu__list-item">
-                                <a class="menu__list-link signin-link" href="#">
+                                <a class="menu__list-link signin-btn" href="#signin">
                                     Sign in
                                 </a>
                             </li>
                             <li class="menu__list-item">
-                                <a class="menu__list-link signup-link" href="#">
+                                <a class="menu__list-link signup-btn" href="#signup">
                                     Sign up
                                 </a>
                             </li>
@@ -1041,7 +1029,7 @@
                     </p>
                     <ul class="social-list">
                         <li class="social-list__item">
-                            <a class="social-list__item" href="#">
+                            <a class="social-list__item-link" href="#">
                                 <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -1051,7 +1039,7 @@
                             </a>
                         </li>
                         <li class="social-list__item">
-                            <a class="social-list__item" href="#">
+                            <a class="social-list__item-link" href="#">
                                 <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -1061,7 +1049,7 @@
                             </a>
                         </li>
                         <li class="social-list__item">
-                            <a class="social-list__item" href="#">
+                            <a class="social-list__item-link" href="#">
                                 <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -1071,7 +1059,7 @@
                             </a>
                         </li>
                         <li class="social-list__item">
-                            <a class="social-list__item" href="#">
+                            <a class="social-list__item-link" href="#">
                                 <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -1081,7 +1069,7 @@
                             </a>
                         </li>
                         <li class="social-list__item">
-                            <a class="social-list__item" href="#">
+                            <a class="social-list__item-link" href="#">
                                 <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path

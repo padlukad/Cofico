@@ -20,7 +20,11 @@ $accent: #D17E08;
     border-radius: 50px; 
     color: #fff;
     text-align: center;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
+    &:hover{
+        background-color: $title;
+        transition: all .3s;
+    }
 }

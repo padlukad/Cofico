@@ -1,5 +1,12 @@
 $(function() {
 
+    $('.menu__btn').on('click',function(){
+        $('.menu').addClass('menu-active');
+    });
+    $('.menu a').on('click', function(){
+        $('.menu').removeClass('menu-active');
+    });
+
     $('.signin-btn').on('click', function(){
         $('.signin, .overlay').addClass('active');
     });
@@ -55,7 +62,34 @@ $(function() {
         draggable: false,
         slidesToShow: 4,
         slidesToScroll: 4,
-        initialSlide: 8
+        initialSlide: 8,
+        responsive: [
+            {
+                breakpoint: 1201,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    initialSlide: 9,
+                }
+            },
+            {
+                breakpoint: 901,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    initialSlide: 11,
+                }
+            },
+            {
+                breakpoint: 601,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 10,
+                    dots: false
+                }
+            },
+        ]
     });
    
     $('.feedback-slider').slick({
@@ -68,7 +102,15 @@ $(function() {
         draggable: false,
         initialSlide: 3,
         fade: true,
-        speed: 1000
+        speed: 1000,
+        responsive: [
+            {
+                breakpoint: 601,
+                settings: {
+                    dots: false
+                }
+            },
+        ]
     });
 
 });

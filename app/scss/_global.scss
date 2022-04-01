@@ -46,32 +46,3 @@ body{
     color: $default;
     @extend %bitter-700;
 }
-
-.go-top{
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    border: none;
-    cursor: pointer;
-    right: 100px;
-    bottom: 100px;
-    border-radius: 50%;
-    background-color: $accent;
-    background-image: url('../images/icons/arrow-up.svg');
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-position: center center;
-    transition: all 0.3s;
-    z-index: 1001;
-    display: none;
-    &:hover{
-        width: 70px;
-        height: 70px;
-        right: 85px;
-        bottom: 85px;
-        transition: all 0.3s;
-    }
-}
-.go-top.show{
-    display: inline-block;
-}

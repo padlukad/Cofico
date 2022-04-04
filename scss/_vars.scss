@@ -1,0 +1,30 @@
+$bg: #FFFDF9;
+$title: #743E24;
+$default: #49321B;
+$accent: #D17E08;
+
+%bitter-700{
+    font-family: 'Bitter-Bold';
+    font-weight: 700;
+}
+
+%bitter-400{
+    font-family: 'Bitter-Regular';
+    font-weight: 400;
+}
+
+%btn{
+    width: 170px;
+    height: 50px;
+    background-color: #D17E08;
+    border-radius: 50px; 
+    color: #fff;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    &:hover{
+        background-color: $title;
+        transition: all .3s;
+    }
+}

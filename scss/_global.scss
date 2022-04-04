@@ -1,0 +1,48 @@
+html,
+body{
+    height: 100%;
+}
+
+body{
+    background-color: $bg;
+    font-size: 16px;
+    line-height: 28px;
+    @extend %bitter-400;
+    display: flex;
+    flex-direction: column;
+    color: $default;
+}
+
+.main{
+    flex-grow: 1;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.logo{
+    display: inline-block;
+}
+
+.title{
+    font-size: 40px;
+    line-height: 56px;
+    @extend %bitter-700;
+    color: $title;
+}
+
+.title-text{
+    text-align: center;
+    max-width: 965px;
+    margin: 0 auto 55px;
+}
+
+.title-small{
+    font-size: 20px;
+    line-height: 32px;
+    color: $default;
+    @extend %bitter-700;
+}
